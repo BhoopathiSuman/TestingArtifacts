@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 07 10:23:32 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>106 seconds (106821 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.advantage.tests.OCAutomation.VerifySARApprovalTest.runVerifySARApproval()'><b>runVerifySARApproval</b><br>Test class: com.advantage.tests.OCAutomation.VerifySARApprovalTest<br>Parameters: LoginDetails [sUserName=occsbsar.stephen.brennan@owenscorning.com.demo, sPassword=persistent@123], [CreateNewSARDetails [sBusiness=Composites, sSARType=Day-to-day, sSegment=GRS, sPricingAnalyst=Ashley Beach, sChannel=Direct, sEffDate=7/8/2015, sTermDate=12/31/2015, sDistributor=3M, sState=MO, sPayer=3M COMPANY, sCompSituation=Conversion, sCompetitor=AHS, sCompConfMethod=Verbal Phone, sCompEffDate=7/8/2015, sCompTermDate=12/31/2015, sCompLearnedDate=7/8/2015, sLearnedFrmName=Test, sLearnedCompany=Test Company, sProdName=FM U852 450-256.5 520 3X2/WB ADV(US) BEB, sType=Unit Price, sUnitOfMeasure=KG, sCurrentPrice=12, sRequestedPrice=18, sVolume=10, sTerm=10, sLevel1Approver=Anindya Ghosh]]<br/>
+<a href="#Output-1911155630" onClick='toggleBox("Output-1911155630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1911155630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1911155630">
+<P class='testtitle'>
+Method runVerifySARApproval executing ...
+</p><br/>
+<P class='testpassed'>Successfully cleared & entered the value 'occsbsar.stephen.brennan@owenscorning.com.demo' into 'User Name'</p><br/>
+<P class='testpassed'>Successfully cleared & entered the value 'persistent@123' into 'Password'</p><br/>
+<P class='testpassed'>Clicked 'Login' successfully</p><br/>
+<P class='testpassed'>User logged in successfully to the application</p><br/>
+<P class='testpassed'>Clicked 'Tab-SARs' successfully</p><br/>
+<P class='testpassed'>SARs tab is visible and clickable.</p><br/>
+<P class='testpassed'>Clicked 'New Button' successfully</p><br/>
+<P class='testpassed'>Create New SARs page opened successfully.</p><br/>
+<P class='testpassed'>Successfully selected 'Composites' from the drop down ('Business DropDown')</p><br/>
+<P class='testpassed'>Successfully selected 'Day-to-day' from the drop down ('SAR Type DropDown')</p><br/>
+<P class='testpassed'>Successfully selected 'GRS' from the drop down ('Segment DropDown')</p><br/>
+<P class='testpassed'>Clicked 'Pricing Analyst Lookup' successfully</p><br/>
+<P class='testfailed'>Verify SAR Approval Test failed.</p><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.24 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;PSNG1067&apos;, ip: &apos;10.222.129.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:1449/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 717943b4-3476-4cd4-937b-3ba5f90ea547
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:890)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.searchPricingAnalyst(CreateNewSARPage.java:161)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.EnterNewSARData(CreateNewSARPage.java:57)
+	at com.advantage.tests.OCAutomation.VerifySARApprovalTest.runVerifySARApproval(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1911155630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1911155630'><pre>org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.24 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;PSNG1067&apos;, ip: &apos;10.222.129.14&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:1449/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 717943b4-3476-4cd4-937b-3ba5f90ea547
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:890)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.searchPricingAnalyst(CreateNewSARPage.java:161)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.EnterNewSARData(CreateNewSARPage.java:57)
+	at com.advantage.tests.OCAutomation.VerifySARApprovalTest.runVerifySARApproval(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>97</td>
+<td>com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="OCAutomation"  verbose ="1" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+		
+	
+	<test name="VerifySARApprovalTest">
+		<classes>	
+			<class name="com.advantage.tests.OCAutomation.VerifySARApprovalTest" />						
+		</classes>
+	</test>	
+<!-- 	<test name="VerifySARRejectTest"> -->
+<!-- 		<classes>	 -->
+<!-- 			<class name="com.advantage.tests.OCAutomation.VerifySARRejectTest" />						 -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+<!-- 	<test name="VerifySARCancelTest"> -->
+<!-- 		<classes>	 -->
+<!-- 			<class name="com.advantage.tests.OCAutomation.VerifySARCancelTest" />						 -->
+<!-- 		</classes> -->
+<!-- 	</test>	 -->
+		
+</suite>

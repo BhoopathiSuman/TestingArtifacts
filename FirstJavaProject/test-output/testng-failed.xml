@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.advantage.tests.OCAutomation.VerifySARApprovalTest">
+        <methods>
+          <include name="suiteInitialization"/>
+          <include name="suiteEnd"/>
+          <include name="testIntiation"/>
+          <include name="runVerifySARApproval" invocation-numbers="0"/>
+          <include name="testEnd"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.advantage.tests.OCAutomation.VerifySARApprovalTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

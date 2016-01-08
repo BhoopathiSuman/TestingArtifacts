@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<P class='testinfo'>****************************************************************************************************</P>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testtitle'>
+Method runVerifySARApproval executing ...
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Successfully cleared & entered the value 'occsbsar.stephen.brennan@owenscorning.com.demo' into 'User Name'</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Successfully cleared & entered the value 'persistent@123' into 'Password'</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Clicked 'Login' successfully</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>User logged in successfully to the application</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Clicked 'Tab-SARs' successfully</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>SARs tab is visible and clickable.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Clicked 'New Button' successfully</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Create New SARs page opened successfully.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Successfully selected 'Composites' from the drop down ('Business DropDown')</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Successfully selected 'Day-to-day' from the drop down ('SAR Type DropDown')</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Successfully selected 'GRS' from the drop down ('Segment DropDown')</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testpassed'>Clicked 'Pricing Analyst Lookup' successfully</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testfailed'>Verify SAR Approval Test failed.</p>]]>
+    </line>
+    <line>
+      <![CDATA[<P class='testinfo'>****************************************************************************************************</P>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106821" started-at="2015-07-07T04:53:32Z" finished-at="2015-07-07T04:55:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106821" started-at="2015-07-07T04:53:32Z" finished-at="2015-07-07T04:55:19Z">
+      <class name="com.advantage.tests.OCAutomation.VerifySARApprovalTest">
+        <test-method status="PASS" signature="suiteInitialization(java.lang.String)[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="suiteInitialization" is-config="true" duration-ms="317" started-at="2015-07-07T10:23:32Z" finished-at="2015-07-07T10:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInitialization -->
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="initialization" is-config="true" duration-ms="0" started-at="2015-07-07T10:23:32Z" depends-on-methods="com.advantage.framework.TestTemplate.suiteInitialization" finished-at="2015-07-07T10:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[config.xml]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="testIntiation(org.testng.ITestContext)[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="testIntiation" is-config="true" duration-ms="6497" started-at="2015-07-07T10:23:33Z" finished-at="2015-07-07T10:23:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e4204e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<P class='testinfo'>****************************************************************************************************</P>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testIntiation -->
+        <test-method status="FAIL" signature="runVerifySARApproval(com.advantage.datastructures.OCAutomation.LoginDetails, java.util.List)[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="runVerifySARApproval" duration-ms="97155" started-at="2015-07-07T10:23:40Z" data-provider="DataFromExcel" finished-at="2015-07-07T10:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginDetails [sUserName=occsbsar.stephen.brennan@owenscorning.com.demo, sPassword=persistent@123]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[CreateNewSARDetails [sBusiness=Composites, sSARType=Day-to-day, sSegment=GRS, sPricingAnalyst=Ashley Beach, sChannel=Direct, sEffDate=7/8/2015, sTermDate=12/31/2015, sDistributor=3M, sState=MO, sPayer=3M COMPANY, sCompSituation=Conversion, sCompetitor=AHS, sCompConfMethod=Verbal Phone, sCompEffDate=7/8/2015, sCompTermDate=12/31/2015, sCompLearnedDate=7/8/2015, sLearnedFrmName=Test, sLearnedCompany=Test Company, sProdName=FM U852 450-256.5 520 3X2/WB ADV(US) BEB, sType=Unit Price, sUnitOfMeasure=KG, sCurrentPrice=12, sRequestedPrice=18, sVolume=10, sTerm=10, sLevel1Approver=Anindya Ghosh]]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.24 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'PSNG1067', ip: '10.222.129.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:1449/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 717943b4-3476-4cd4-937b-3ba5f90ea547]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: No window found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.24 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'PSNG1067', ip: '10.222.129.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:1449/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 717943b4-3476-4cd4-937b-3ba5f90ea547
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:890)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.searchPricingAnalyst(CreateNewSARPage.java:161)
+	at com.advantage.pages.OCAutomation.CreateNewSARPage.EnterNewSARData(CreateNewSARPage.java:57)
+	at com.advantage.tests.OCAutomation.VerifySARApprovalTest.runVerifySARApproval(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<P class='testtitle'>
+Method runVerifySARApproval executing ...
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Successfully cleared & entered the value 'occsbsar.stephen.brennan@owenscorning.com.demo' into 'User Name'</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Successfully cleared & entered the value 'persistent@123' into 'Password'</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Clicked 'Login' successfully</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>User logged in successfully to the application</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Clicked 'Tab-SARs' successfully</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>SARs tab is visible and clickable.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Clicked 'New Button' successfully</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Create New SARs page opened successfully.</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Successfully selected 'Composites' from the drop down ('Business DropDown')</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Successfully selected 'Day-to-day' from the drop down ('SAR Type DropDown')</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Successfully selected 'GRS' from the drop down ('Segment DropDown')</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testpassed'>Clicked 'Pricing Analyst Lookup' successfully</p>]]>
+            </line>
+            <line>
+              <![CDATA[<P class='testfailed'>Verify SAR Approval Test failed.</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runVerifySARApproval -->
+        <test-method status="PASS" signature="testEnd()[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="testEnd" is-config="true" duration-ms="2144" started-at="2015-07-07T10:25:17Z" finished-at="2015-07-07T10:25:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<P class='testinfo'>****************************************************************************************************</P>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+        <test-method status="PASS" signature="suiteEnd()[pri:0, instance:com.advantage.tests.OCAutomation.VerifySARApprovalTest@25618e91]" name="suiteEnd" is-config="true" duration-ms="0" started-at="2015-07-07T10:25:19Z" finished-at="2015-07-07T10:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteEnd -->
+      </class> <!-- com.advantage.tests.OCAutomation.VerifySARApprovalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

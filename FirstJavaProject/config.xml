@@ -1,0 +1,47 @@
+<config>
+	<!-- Local Only -->
+	<Fixed>
+		<AppConfig>
+			<Browser>FF</Browser>
+			<ENV>
+				<URL>https://test.salesforce.com</URL>
+<!-- 				<UserName></UserName>					 -->
+<!-- 				<Password></Password> -->
+				<ASMUserName>occsbsar.stephen.brennan@owenscorning.com.demo</ASMUserName>					
+				<ASMPassword>persistent@123</ASMPassword>
+				<PAUserName>occsbsar.ashley.beach@owenscorning.com.demo</PAUserName>					
+				<PAPassword>persistent@123</PAPassword>
+				<LOAUserName>occsbsar.anindya.ghosh@owenscorning.com.demo</LOAUserName>					
+				<LOAPassword>persistent@123</LOAPassword>
+<!-- 				<TestEnvironment></TestEnvironment> TestEnvironment=Prod, QA, Dev -->
+<!-- 				<TestDataCriteria></TestDataCriteria> TestEnvironment=Passed, Failed, Sanity,blank(This signify All records need to execute -->
+			</ENV>
+			<ResultsPath>Results</ResultsPath>	
+			<!--mail server details need to be mentioned here -->
+			<SMTPServer>mail.persistent.co.in</SMTPServer>
+			<SMTPPort>25</SMTPPort>
+			<FromEmailAddress>samidha_choudhari@persistent.co.in</FromEmailAddress>
+			<FromEmailPassword>password@123</FromEmailPassword> 
+			<ToEmailAddress>samidha_choudhari@persistent.co.in</ToEmailAddress>	
+			<Subject>Test Execution Report</Subject>
+			<Message>test Suite execution completed</Message>			
+		</AppConfig>
+
+		<FrameworkConfig>
+			<TestDataPath>testdata</TestDataPath>
+			<ORPath>objectrepository</ORPath>
+			<PageTimeoutInSeconds>30</PageTimeoutInSeconds>
+			<ElementTimeoutInSeconds>30</ElementTimeoutInSeconds>
+			<PollIntervalInMilliSeconds>1000</PollIntervalInMilliSeconds>
+			<SendEmails>False</SendEmails>
+			<CaptureScreenshots>True</CaptureScreenshots>
+		</FrameworkConfig>
+
+	</Fixed>
+
+	<Custom>
+		<Tag1>aksdksd</Tag1>
+		<Tag2>aksdksd</Tag2>
+	</Custom>
+
+</config>

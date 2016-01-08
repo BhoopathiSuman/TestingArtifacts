@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>OC Automation Test Execution Report - VerifySARApprovalTest</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <link href="custom.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>VerifySARApprovalTest</h1>
+<p>
+  Test duration: 16.724s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.advantage.tests.OCAutomation.VerifySARApprovalTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  runVerifySARApproval
+      </td>
+  <td class="duration">
+    2.316s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">LoginDetails [sUserName=occsbsar.stephen.brennan@owenscorning.com.demo, sPassword=persistent@123], [CreateNewSARDetails [sBusiness=Composites, sSARType=Day-to-day, sSegment=GRS, sPricingAnalyst=Ashley Beach, sChannel=Direct, sEffDate=7/8/2015, sTermDate=12/31/2015, sDistributor=3M, sState=MO, sPayer=3M COMPANY, sCompSituation=Conversion, sCompetitor=AHS, sCompConfMethod=Verbal Phone, sCompEffDate=7/8/2015, sCompTermDate=12/31/2015, sCompLearnedDate=7/8/2015, sLearnedFrmName=Test, sLearnedCompany=Test Company, sProdName=FM U852 450-256.5 520 3X2/WB ADV(US) BEB, sType=Unit Price, sUnitOfMeasure=KG, sCurrentPrice=12, sRequestedPrice=18, sVolume=10, sTerm=10, sLevel1Approver=Anindya Ghosh]]</span><br />
+    
+            <div class="testOutput">
+                        <P class='testtitle'>
+Method runVerifySARApproval executing ...
+</p>
+                                <P class='testfailed'>Could not find 'User Name' due to exception:  org.openqa.selenium.InvalidElementStateException:  Element must not be hidden, disabled or read-only (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'pshys0029', ip: '10.233.16.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_21'
+Session ID: 415af625-7005-4e47-926f-fa1f22fb9cca
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:39538/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+</p>
+                                <a href='../Screenshots/Error001.png' target = '_blank'>Click here for error screenshot</a>
+                                <P class='testfailed'>Verify SAR Approval Test failed.</p>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>com.advantage.genericexceptions.EnterFieldNoSuchElementException: Could not find &apos;User Name&apos; due to exception:&nbsp; org.openqa.selenium.InvalidElementStateException:&nbsp; Element must not be hidden, disabled or read-only (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 46 milliseconds<br/>
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;<br/>
+System info: host: &apos;pshys0029&apos;, ip: &apos;10.233.16.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_21&apos;<br/>
+Session ID: 415af625-7005-4e47-926f-fa1f22fb9cca<br/>
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver<br/>
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, enablePersistentHover=true, ignoreZoomSetting=false, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=11, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=true, requireWindowFocus=false, initialBrowserUrl=http://localhost:39538/, handlesAlerts=true, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              com.advantage.framework.Framework.enterField(Unknown Source)<br />
+              com.advantage.framework.Framework.enterField(Unknown Source)<br />
+              com.advantage.pages.OCAutomation.Login.enterUserName(Unknown Source)<br />
+              com.advantage.pages.OCAutomation.Login.loginAs(Unknown Source)<br />
+              com.advantage.tests.OCAutomation.VerifySARApprovalTest.runVerifySARApproval(Unknown Source)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)<br />
+              java.lang.reflect.Method.invoke(Method.java:597)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
+              org.testng.TestRunner.run(TestRunner.java:617)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
+              org.testng.SuiteRunner.access$000(SuiteRunner.java:37)<br />
+              org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)<br />
+              org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)<br />
+              java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)<br />
+              java.util.concurrent.FutureTask.run(FutureTask.java:138)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)<br />
+              java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)<br />
+              java.lang.Thread.run(Thread.java:619)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>
